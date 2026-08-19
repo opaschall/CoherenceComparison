@@ -142,7 +142,7 @@ We do this with three methods: (1) unweighted inversion, just solving for the sl
 ### Figure 18
 *Zoom-in to Focus Area A with diagram from Spreckels sugar factory and Google Earth image of the retention ponds* 
 <br><br>
-- Run this notebook: `/3_Making_figures/Figure_18_focus_area_A_zoomin/Fig_18_focus_area_A_zoomin.ipynb` which produces panels (a) and (b) of the figure. Panels (c) and (d) are from a technical report (put link here) and from Google Earth, respectively.
+- Run this notebook: `/3_Making_figures/Figure_18_focus_area_A_zoomin/Fig_18_focus_area_A_zoomin.ipynb` which produces panels (a) and (b) of the figure. Panels (c) and (d) are from a technical report: Waring (2023), entitled ["WASTE DISCHARGE REQUIREMENTS ORDER R7-2023-0001 i SPRECKELS SUGAR COMPANY, INC. SUGAR BEET PROCESSING FACILITY, BRAWLEY IMPERIAL COUNTY"](https://www.waterboards.ca.gov/rwqcb7/board_decisions/adopted_orders/resolutions/2023/final_wdr_spreckels_sugar_brawley_r7_2023_0001_osb.pdf) and from Google Earth, respectively.
 <p align="center">
   <img width="50%" alt="Annotated_retention_pond" src="https://github.com/user-attachments/assets/dd1ca72e-0b1a-4fea-b317-bc3de4c5ce0e" />
 </p>  
