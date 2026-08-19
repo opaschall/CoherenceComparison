@@ -1,8 +1,8 @@
 cff-version: 1.0.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: "Paschall, Marone, Devlin, Lohman"
-    given-names: "O.C., L.S., K.R., R.B."
+  - family-names: "Paschall", "Marone", "Devlin", "Lohman"
+    given-names: "O.C.", "L.S.", "K.R.", "R.B."
 title: "To normalize (by backscatter intensity) or not to normalize: Observations of InSAR coherence dependencies on normalization over the Imperial Valley, California"
 version: "1.0.0"
 date-released: "2026-08-19"
