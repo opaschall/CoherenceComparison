@@ -3,6 +3,8 @@
 
 This study shows that a more computationally-efficient method of calculating InSAR coherence (we call this "unit vector coherence" does not pose any deficiencies when using coherence to inform estimates of displacement rates, and for masking unreliable pixels.
 <br><br>
+*Note:* This README file works better with the "light theme" appearance option in Github. The figures shown here have transparent backgrounds, which makes some figure components visually disappear on a dark background. 
+<br><br>
 
 ## Installing dependencies
 Install the conda environments `pygmt` (only used in producing Figure 1) and `earthscope_insar` (used to produce all other figures) using the YML files in the folder `/0_Creating_conda_env/`. I have included a version of each YML file that may be more compatible with another user's computer if the first installation does not work. 
