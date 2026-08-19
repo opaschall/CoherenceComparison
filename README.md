@@ -77,8 +77,10 @@ The code to perform these calculations and save the coherence files are in the f
 <img width="50%" alt="coh_diffs" src="https://github.com/user-attachments/assets/00fd3e77-b1d7-4033-86fa-a1c78d9ef845" />
 </p>
 <br><br>
+
 - To produce Figure S1, run this notebook: `/3_Making_figures/Figure_4-6_S1_coherence_diffs/Fig_S1_coherence_diffs_histograms.ipynb`
 <br>
+
 <p align="center">
 <img width="80%" alt="Supp_hists_masks" src="https://github.com/user-attachments/assets/315f846e-aa6b-40a7-ab01-df09832de9d8" />
 </p>
