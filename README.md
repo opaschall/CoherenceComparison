@@ -29,14 +29,18 @@ Single Look Complex (SLC) images are the input data for this study. These files 
 <br><br>
 - Use the following notebook to produce Figure 1: `/3_Making_figures/Figure_1_basemap/Fig_1_basemap.ipynb`. All of the necessary files are in the folder with the notebook. Use the `pygmt` conda environment for running this notebook. 
 <br><br>
-- From here forward, the `earthscope_insar` conda environment is used exclusively. 
-<br><br>
+- From here forward, the `earthscope_insar` conda environment is used exclusively.
+<p align="center">
+<img width="50%" alt="SH_basemap_higher_res_test" src="https://github.com/user-attachments/assets/c4c82bc5-b9d4-436d-be2f-ab8d661ad988" />
+</p>
 
 ### Figure 2: 
 *Synthetic time series inversion example* 
 <br><br>
 - Run this notebook: `/3_Making_figures/Figure_2_synthetic_inversion/Fig_2_synthetic_rate_inversion.ipynb`
-<br><br>
+<p align="center">
+<img width="60%" alt="synth_inversion_example" src="https://github.com/user-attachments/assets/3b2bc3ff-f9c6-49eb-9a3e-fd536e4b7e5d" />
+</p>
 
 ### Figure 3
 *Surface types map* 
@@ -48,7 +52,9 @@ This map identifies the following surface types: desert, urban/barren, and veget
 - The second file `no_desert.r4` is produced by point-clicking the boundary between desert and agricultural valley, with the following notebook` 3_Making_figures/Figure_3_surface_types_map/draw_polygon_to_mask_desert.ipynb` 
 <br><br>
 - Once the user has successfully created the `roadarray.r4` and `no_desert.r4` mask files, run this notebook: `/3_Making_figures/Figure_3_surface_types_map/Fig_3_land_cover_map.ipynb`
-<br><br>
+<p align="center">
+<img width="50%" alt="desert_urban_veg_mask" src="https://github.com/user-attachments/assets/34a5f9a1-727f-47fe-9453-fff490e6d732" />
+</p>
 
 ## Create coherence files with Methods 1 and 2 and calculate averages.
 The code to perform these calculations and save the coherence files are in the folder: `/2_Calculating_coherence_2_ways/`. 
@@ -65,15 +71,30 @@ The code to perform these calculations and save the coherence files are in the f
 ### Figure 4-6 and S1
 *Average coherence differences between the two methods* <br>
 - To produce Figures 4-6, run this notebook: `/3_Making_figures/Figure_4-6_S1_coherence_diffs/Fig_4-6_coherence_diffs.ipynb`
+<p align="center">
+<img width="80%" alt="avg_cohs" src="https://github.com/user-attachments/assets/a64982ec-d8af-4360-a5a4-10df55275c88" />
+<img width="40%" alt="coh_heatmap" src="https://github.com/user-attachments/assets/a558f71b-abe2-47cc-91d5-5f2e59938aee" /> <br>
+<img width="50%" alt="coh_diffs" src="https://github.com/user-attachments/assets/00fd3e77-b1d7-4033-86fa-a1c78d9ef845" />
+</p>
 <br><br>
 - To produce Figure S1, run this notebook: `/3_Making_figures/Figure_4-6_S1_coherence_diffs/Fig_S1_coherence_diffs_histograms.ipynb`
-<br><br>
+<br>
+<p align="center">
+<img width="80%" alt="Supp_hists_masks" src="https://github.com/user-attachments/assets/315f846e-aa6b-40a7-ab01-df09832de9d8" />
+</p>
 
 ### Figures 7-12
 *USDA Cropland Data Layer (CDL) map of our region of interest, and focus areas with four panels each* 
 <br><br>
 - To produce Figures 7-12, run this notebook: `/3_Making_figures/Figure_7-12_CDL_map_and_focus_areas/Fig_7_8-12_CDL_map_and_focus_areas.ipynb`
-<br><br>
+<p align="center">
+  <img width="50%" alt="crop_map" src="https://github.com/user-attachments/assets/abab97d6-7e53-40db-8ecd-3eaae42f9bb5" /> <br>
+  <img width="30%" alt="focus_area_A_imperial_road" src="https://github.com/user-attachments/assets/9776ab12-345d-4d8e-affe-dcea41c8a8d7" />
+  <img width="30%" alt="focus_area_B_pools" src="https://github.com/user-attachments/assets/9517e6a4-9809-4497-9d36-674bf36dcf61" />
+  <img width="70%" alt="focus_area_C_transect_roads" src="https://github.com/user-attachments/assets/52560362-02d7-4ad1-9918-e2215ed32cac" />
+  <img width="30%" alt="focus_area_D_imperial_airport" src="https://github.com/user-attachments/assets/fff218d5-c767-4fdb-b066-6a38573a8f03" />
+  <img width="30%" alt="focus_area_E_ElCentro_airport" src="https://github.com/user-attachments/assets/83e5878d-e2cd-433c-936d-5a00f0f4be20" />
+</p>
 
 ## Performing displacement rate inversions
 We do this with three methods: (1) unweighted inversion, just solving for the slope of a least squares line-of-best-fit through the cumulative displacement time series, (2) a weighted inversion with complex coherence magnitude (Method 1 of coherence estimation) as weights in our weighted least squares inversion of displacement rate, and (3) a weighted inversion with unit vector coherence magnitude (Method 2 of coherence estimation) as weights in a weighted least squares inversion of displacement rate. 
@@ -91,27 +112,42 @@ We do this with three methods: (1) unweighted inversion, just solving for the sl
 *Rates inverted unweighted and weighted using two coherence methods, and rate differences between all three combinations* 
 <br><br>
 - Run this notebook: `/3_Making_figures/Figure_13-14_rates_maps_and_rate_diffs/Figs_13-14_rates_and_rate_diffs.ipynb`
-<br><br>
+<p align="center">
+  <img width="80%" alt="disp_rates" src="https://github.com/user-attachments/assets/7b220cb1-ddb4-4193-9b4c-378903cbbe84" />
+  <img width="80%" alt="disp_rate_diffs" src="https://github.com/user-attachments/assets/718fa676-a15d-4a6c-87d2-09739f82d402" />
+</p>
 
 ### Figures 15 and S2
 *Displacement rate histograms* 
 <br><br>
 - Run this notebook: `/3_Making_figures/Figure_15_S2_rate_histograms/Figs_15_S2_rate_histograms.ipynb`
-<br><br>
+<p align="center">
+  <img width="50%" alt="hists_rates_all_focus_areas_same_set_of_pixels" src="https://github.com/user-attachments/assets/c10af762-8ac7-4a2a-892f-a3d408c7ca71" /> <br>
+  <img width="50%" alt="hists_focus_areas" src="https://github.com/user-attachments/assets/4193f9d9-e366-4a12-9b8a-658934e2e7f3" />
+</p>  
 
 ### Figures 16-17
 *Plots of percent non-vegetated ground (NVG) pixels* 
 <br><br>
 - Run this notebook: `/3_Making_figures/Figure_16-17_percent_NVG_plots/Figs_16_17_percent_NVGs_plots.ipynb`
-<br><br>
+<p align="center">
+  <img width="60%" alt="NVGs_captured_all_areas" src="https://github.com/user-attachments/assets/96862c30-d8c0-47b3-99aa-5fc5d609cc44" /> <br>
+  <img width="60%" alt="NVGs_captured_by_area" src="https://github.com/user-attachments/assets/303c520f-0029-4788-86da-588493d6617a" />
+</p>  
 
 ### Figure 18
 *Zoom-in to Focus Area A with diagram from Spreckels sugar factory and Google Earth image of the retention ponds* 
 <br><br>
-- Run this notebook: `/3_Making_figures/Figure_18_focus_area_A_zoomin/Fig_18_focus_area_A_zoomin.ipynb` 
-<br><br>
+- Run this notebook: `/3_Making_figures/Figure_18_focus_area_A_zoomin/Fig_18_focus_area_A_zoomin.ipynb` which produces panels (a) and (b) of the figure. Panels (c) and (d) are from a technical report (put link here) and from Google Earth, respectively.
+<p align="center">
+  <img width="50%" alt="Annotated_retention_pond" src="https://github.com/user-attachments/assets/dd1ca72e-0b1a-4fea-b317-bc3de4c5ce0e" />
+</p>  
 
 ### Figures S3-S4
 *Synthetic data tests*
 <br><br>
 - Run this notebook: `/3_Making_figures/Figure_S3-S4_synthetic_data_tests/Figs_S3_S4_synthetic_tests.ipynb`
+<p align="center">
+  <img width="45%" alt="synthetic_test_window_sizes" src="https://github.com/user-attachments/assets/7444ed01-5657-4789-8f11-d5ddc5f25ef4" />
+  <img width="80%" alt="synthetic_test_bright_dark" src="https://github.com/user-attachments/assets/e3867ac5-4eea-4a40-ab12-bd7a11377195" />
+</p>  
