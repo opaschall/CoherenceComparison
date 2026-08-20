@@ -1,0 +1,65 @@
+name: earthscope_insar
+channels:
+  - conda-forge
+dependencies:
+  - asf_search
+  - boto3
+  - cartopy
+  - cython
+  - datashader
+  - dem_stitcher[version='>=2.5.0']
+  - fortran-compiler
+  - h5py
+  - hyp3_sdk
+  - hyp3lib=1.4.1
+  - ipympl
+  - ipywidgets[version='<8.0.0']
+  - isce2
+  - joblib
+  - jupyterlab
+  - kernda
+  - lxml
+  - matplotlib[version='<3.7.0']
+  - mintpy
+  - netcdf4
+  - numpy
+  - opencv
+  - openmp
+  - opensarlab_lib
+  - pip
+  - pv
+  - pyproj
+  - pyrocko
+  - python
+  - rioxarray
+  - sardem
+  - scikit-image
+  - scipy=1.12.0
+  - sentineleof
+  - shapely
+  - traitlets==5.1.1
+  - utm
+  - imagemagick
+  - arviz==0.18
+  - screen
+  - earthengine-api
+  - ca-certificates
+  - certifi
+  - openssl
+  - git
+  - s3fs
+  - h5glance
+  - astropy
+  - snaphu
+  - emcee
+  - ipykernel
+variables:
+  ISCE_HOME: /home/ocp4/miniforge3/envs/earthscope_insar/lib/python3.11/site-packages/isce
+  GDAL_HTTP_COOKIEFILE: /tmp/cookies.txt
+  GDAL_HTTP_COOKIEJAR: /tmp/cookies.txt
+  VSI_CACHE: YES
+  PYTHONPATH: 
+    /home/ocp4/Software/contrib:/home/ocp4/miniforge3/envs/earthscope_insar/share/isce2:/home/ocp4/miniforge3/envs/earthscope_insar/share/isce2/topsStack:/home/ocp4/.local/ARIA-tools/tools:/home/ocp4/.local/ARIA-tools/tools/ARIAtools:/home/ocp4/miniforge3/envs/earthscope_insar/lib/python3.11/site-packages/isce:/home/ocp4/Software/contrib:/home/ocp4/miniforge3/envs/earthscope_insar/share/isce2:/home/ocp4/miniforge3/envs/earthscope_insar/share/isce2/topsStack:/home/ocp4/.local/ARIA-tools/tools:/home/ocp4/.local/ARIA-tools/tools/ARIAtools:/home/ocp4/miniforge3/envs/earthscope_insar/lib/python3.11/site-packages/isce::/home/ocp4/data/DeathValley/Notebooks_github/Temperature_ts:/home/ocp4/data/DeathValley/Notebooks_github/Temperature_ts:/home/ocp4/data/DeathValley/Notebooks_github/Temperature_ts:/home/ocp4/data/DeathValley/Notebooks_github/Temperature_ts
+  PATH: 
+    /home/ocp4/Software/contrib:/home/ocp4/miniforge3/envs/earthscope_insar/share/isce2:/home/ocp4/miniforge3/envs/earthscope_insar/share/isce2/topsStack:/home/ocp4/.local/ARIA-tools/tools/bin:/home/ocp4/.local/ARIA-tools/tools/ARIAtools:/home/ocp4/miniforge3/envs/earthscope_insar/lib/python3.11/site-packages/isce/applications:/home/ocp4/miniforge3/envs/earthscope_insar/lib/python3.11/site-packages/isce/bin:/home/ocp4/miniforge3/envs/earthscope_insar/lib/python3.11/site-packages/isce/components/contrib/Snaphu:/home/ocp4/miniforge3/envs/earthscope_insar/bin:/home/ocp4/.local/envs/earthscope_insar/bin:/home/ocp4/.local/bin:/home/ocp4/Software/contrib:/home/ocp4/miniforge3/envs/earthscope_insar/share/isce2:/home/ocp4/miniforge3/envs/earthscope_insar/share/isce2/topsStack:/home/ocp4/.local/ARIA-tools/tools/bin:/home/ocp4/.local/ARIA-tools/tools/ARIAtools:/home/ocp4/miniforge3/envs/earthscope_insar/lib/python3.11/site-packages/isce/applications:/home/ocp4/miniforge3/envs/earthscope_insar/lib/python3.11/site-packages/isce/bin:/home/ocp4/miniforge3/envs/earthscope_insar/lib/python3.11/site-packages/isce/components/contrib/Snaphu:/home/ocp4/miniforge3/envs/earthscope_insar/bin:/home/ocp4/.local/envs/earthscope_insar/bin:/home/ocp4/.local/bin:/home/ocp4/miniforge3/envs/earthscope_insar/lib/python3.10/site-packages/isce/bin:/home/ocp4/miniforge3/envs/earthscope_insar/lib/python3.10/site-packages/isce/bin:/home/ocp4/miniforge3/envs/earthscope_insar/bin:/home/ocp4/miniforge3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+prefix: /home/ocp4/miniforge3/envs/earthscope_insar
