@@ -29,7 +29,7 @@ Single Look Complex (SLC) images are the input data for this study. These files 
 ### Figure 1
 *Basemap (optical image, faults, and InSAR data footprint)* 
 <br><br>
-- Use the following notebook to produce Figure 1: `/3_Making_figures/Figure_1_basemap/Fig_1_basemap.ipynb`. All of the necessary files are in the folder with the notebook. Use the `pygmt` conda environment for running this notebook. 
+- Use the following notebook to produce Figure 1: `/3_Making_figures/Figure_1_basemap/Fig_1_basemap.ipynb`. The geotiff file used to produce this figure is too large to sit in this Github repository. We used Google Earth Engine to download the geotiff optical image, which can be done for any region of interest. Use the `pygmt` conda environment for running this notebook. 
 <br><br>
 - From here forward, the `earthscope_insar` conda environment is used exclusively.
 <p align="center">
